@@ -1,0 +1,28 @@
+{
+  "name": "password-generator",
+  "version": "1.0.0",
+  "description": "simple password generator writen in nodejs for terminal usage",
+  "main": "index.js",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": "index.js",
+  "author": {
+    "email": "satiseven777@gmail.com",
+    "name": "RGh",
+    "url": "https://www.riza.website"
+  },
+  "scripts": {
+    "start": "node index"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://www.riza.website"
+    }
+  ],
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "clipboardy": "^2.3.0",
+    "commander": "^8.0.0"
+  }
+}
