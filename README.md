@@ -13,7 +13,7 @@ password generator wrote in nodejs for terminal,it will work in portable
 be sure package.json file has
 -  "preferGlobal": true,
 -   "bin": "index.js",
- ### Index.js file should have
+ ### Your index.js file should have
  ```ssh
  #!/usr/bin/env node
  ```
