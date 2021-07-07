@@ -20,5 +20,7 @@ if (save) {
   savePassword(generatedPasword);
 }
 clipboardy.writeSync(generatedPasword);
-log(chalk.blue("Generated Password : ") + chalk.bold(generatedPasword));
+log(
+  chalk.blue("Generated Password : ") + chalk.bgYellow.bold(generatedPasword)
+);
 log(chalk.yellow("Password Copy to Clipboard"));
