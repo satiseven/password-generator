@@ -9,23 +9,23 @@ password generator wrote in nodejs for terminal,it will work in portable
 - npm install 
 
 # How to make it command
-### if you want to execute the command line
+### If you want to execute the command line
 be sure package.json file has
 -  "preferGlobal": true,
 -   "bin": "index.js",
- ### index.js file should have
+ ### Index.js file should have
  ```ssh
  #!/usr/bin/env node
  ```
- ### should install package
+ ### Should install package
  ```ssh
  npm install -g C:\Users\riza\Desktop\password-generator
  ```
- ### open terminal and run 
+ ### Open terminal and run 
  ```ssh 
   password-generator
   ```
-  # options
+  # Options
   - -length=10 will generate password length 10
   - -nn will disable numbers
   -  -ns will disable symbols
