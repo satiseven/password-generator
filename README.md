@@ -2,7 +2,7 @@
  <img src="https://github.com/satiseven7/password-generator/blob/main/passwordgenerator.png?raw=true" alt="Ankavita" />
 </p>
 
-# password-generator
+# NodeJs Password Generator
 password generator wrote in nodejs for terminal,it will work in portable
 # install the package
  after cloning the resp you shoud enter to direcory and
